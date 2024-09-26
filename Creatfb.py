@@ -50,17 +50,26 @@ logo4 = """
 \x1b[1;91m
 \x1b[1;92m
 \x1b[1;96m
-\x1b[1;92m         {|} {|}  {|} {|}{|}{|} {|}{|}{|}
-\x1b[1;97m         {|} {|}  {|}    {|}       {|}
-\x1b[1;93m         {|} {|}  {|}    {|}       {|}
-\x1b[1;96m         {|} {|}  {|}    {|}       {|}
-\x1b[1;94m     {|}{|}   {|}{|}     {|}       {|}
+\x1b[1;92m         
+  _____                  _ 
+ |  __ \                | |
+ | |__) |__ _  __ _     | |
+ |  _  // _` |/ _` |_   | |
+ | | \ \ (_| | (_| | |__| |
+ |_|  \_\__,_|\__,_|\____/ 
+                           
+                           
+
+\x1b[1;97m         
+\x1b[1;93m        
+\x1b[1;96m         
+\x1b[1;94m     
 \x1b[1;93m
-\x1b[1;92m         Jutt Badshah Brand~
+\x1b[1;92m         Raaj Inside Ts Brand
 \x1b[1;91m-----------------------------------------------
-\x1b[1;97m> Author : Raaj Inside
-\x1b[1;97m> Github : https://github.com/Rajdhani12
-\x1b[1;97m> Facebok: Raaj Inside
+\x1b[1;97m> Author : Jutt Badshah
+\x1b[1;97m> Github : https://github.com/SHOOTER-MAKER
+\x1b[1;97m> Facebok: Jutt Badshah
 \x1b[1;97m> Version: auto create facebook
 \x1b[0;97m-----------------------------------------------"""
 boy = ['Ali Khan', 'Rustam Khan', 'Faisal Khan', 'Afzal Khan', 'Haider Khan', 'Suleman Khan', 'Nadeem Khan', 'Nazeer Malik', 'Nazeer Jutt', 'Nazeer Rehmani', 'Safdar Malik', 'Intzar Khan', 'Saleem Malik', 'Abdullah Malik', 'Naseer Jutt', 'Muzammil Malik', 'Fiaz Ahmad', 'Asghar Ali', 'Shabeer Ahmad', 'Irfan Ali', 'Ahmad Gujjar']
@@ -80,10 +89,10 @@ def menu():
     if sel in['1', '01']:
         create().start()
     elif sel in ['2', '02']:
-        os.system('xdg-open https://www.facebook.com/profile.php?id=61552334053703&mibextid=share_group_link')
+        os.system('xdg-open https://www.facebook.com/groups/262660289344669/?ref=share_group_link')
         menu()
     elif sel in ['3', '03']:
-        os.system('xdg-open https://chat.whatsapp.com/Bfak4jGfh5LC9NNJoq3Nbn')
+        os.system('xdg-open https://chat.whatsapp.com/C4EokyLxEaZGBlyJ99M3pA')
         menu()
     else:
         print ('select valid option')
